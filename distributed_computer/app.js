@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+/*
+ * CODE MODIFIED FROM DCL-PROVIDED EXAMPLES
+ * LINK TO SOURCE REPO: https://github.com/Kings-Distributed-Systems/dcp-node-example
+ */
+
 const scheduler = 'https://scheduler.distributed.computer';
 const admin = require('firebase-admin');
 const { data } = require('xdg-basedir');
